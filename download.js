@@ -3,7 +3,6 @@ export async function main(ns) {
     const folder = 'scripts';
 
     const files = [
-            "dev.js",
             "hacknet-bot.js",
             "money.script",
             "scan.js",
