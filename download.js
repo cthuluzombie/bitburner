@@ -1,5 +1,5 @@
 export async function main(ns) {
-    const { rootUrl } = ns.flags([['rootUrl', 'raw.githubusercontent.com/cthuluzombie/bitburner/main/']]); 
+    const { rootUrl } = ns.flags([['rootUrl', 'https://raw.githubusercontent.com/cthuluzombie/bitburner/main/']]); 
     const folder = 'scripts';
 
     const files = [
