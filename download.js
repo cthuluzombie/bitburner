@@ -22,4 +22,4 @@ export async function main(ns) {
     }
 
     ns.tprint('='.repeat(20));
-  
+}
