@@ -1,0 +1,4 @@
+while(true) {
+	weaken('sigma-cosmetics');
+	grow('sigma-cosmetics');
+}
