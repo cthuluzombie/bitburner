@@ -22,12 +22,4 @@ export async function main(ns) {
     }
 
     ns.tprint('='.repeat(20));
-    
-    if (filesImported) {
-        ns.tprint('Hey! Thank you for downloading the BitBurner Scripts.');
-        ns.tprint(`You've installed these in the ${folder} directory.`);
-        ns.tprint(`A good place to start is running \`run /${folder}/hax.js\``);
-    } else {
-        ns.tprint('You had some issues downloading files, please reach out to the repo maintainer or check your config.');
-    }
-}
+  
